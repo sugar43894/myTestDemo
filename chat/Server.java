@@ -90,7 +90,7 @@ public class Server {
 		// 更改JFrame的图标：
 		//frame.setIconImage(Toolkit.getDefaultToolkit().createImage(Client.class.getResource("qq.png")));
 		frame.setIconImage(Toolkit.getDefaultToolkit().createImage(Server.class.getResource("qq.png")));
-		System.out.println(System.getProperty("user.dir"));
+		//System.out.println(System.getProperty("user.dir")); 查看路径
 		contentArea = new JTextArea();
 		contentArea.setEditable(false);
 		contentArea.setForeground(Color.blue);

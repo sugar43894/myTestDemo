@@ -131,6 +131,9 @@ public class Client{
 		int screen_height = Toolkit.getDefaultToolkit().getScreenSize().height;
 		frame.setLocation((screen_width - frame.getWidth()) / 2,
 				(screen_height - frame.getHeight()) / 2);
+		/*	java中的setvisible(true)目的是使控件可以显示出来,
+			如果该控件已经被显示出来，那么该方法是控件显示在窗口的最前方
+			*/
 		frame.setVisible(true);
 
 		// 写消息的文本框中按回车键时事件
